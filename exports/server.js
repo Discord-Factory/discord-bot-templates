@@ -31,7 +31,7 @@ client.on("message", async (msg) => {
         } catch (e) { 
             console.log(e.message); 
         } finally { 
-            console.log(`${message.author.username} utilizo el comando: ${cmd}.js`);
+           console.log(`${message.author.username} utilizo el comando: ${cmd}.js en la guild: ${message.guild.toString()}`);
         }
         //fin de la creacion del command handler
   });
