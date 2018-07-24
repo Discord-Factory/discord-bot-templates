@@ -37,4 +37,4 @@ client.on("message", async(msg) => {
     });
 })
 
-client.logig(config.token)
+client.login(config.token)
