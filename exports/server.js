@@ -1,5 +1,5 @@
 //listado de las librerias 
-const Discord = requuire('discord.js');
+const Discord = require('discord.js');
 const fs = require('fs');
 
 //Añadimos el json de la configuración
