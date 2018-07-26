@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
         message.channel.send(evaled, {code: 'js'}) // Enviamos el mensaje con el resultado de la evaluación.
       
       } catch(err) { /* Pero.. Si hay un error entonces hay que enviarlo. (logica :v) */
-        message.channel.send(err, {code: 'xl'})
+        message.channel.send(`\`ERROR\`\n\`\`\`xl\n${err}\`\`\``)
       } 
 }
 
