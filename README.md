@@ -5,3 +5,6 @@
 
 ## Guiás
 Por el momento solo existe un guiá (template) que es para ayudar con el <em>command handler</em>; la puedes encontrar [aquí](https://github.com/Logic-Development/discord-bot-templates/tree/master/exports).
+
+## Advertencias
+*TODAS LAS GUIAS USAN LA VERSION <em>STABLE</em> DE <em>[DISCORD.JS](https://github.com/discordjs/discord.js)</em>
