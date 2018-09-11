@@ -9,7 +9,7 @@ const config = require("./config.json");
 const client = new Discord.Client();
 
 //evento message 
-client.on("message", async (msg) => {
+client.on("message", async (message) => {
   
   if (message.channel.type != 'text') return;// para que los comandos no funcionen en el DM
           
